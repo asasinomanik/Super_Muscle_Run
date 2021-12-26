@@ -19,14 +19,17 @@ public class playerStrength : MonoBehaviour
         strengthText.text = "Strenght : " + strenght.ToString();
 
     }
-
+   
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "FinishLine")
         {
-            rb.AddForce(0, 0, strenght*100);
+            rb.AddForce(0, 0, strenght * 100);
             print("forece");
+
         }
 
     }
+
+    
 }

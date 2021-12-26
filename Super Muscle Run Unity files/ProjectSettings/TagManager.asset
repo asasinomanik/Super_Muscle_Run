@@ -8,6 +8,7 @@ TagManager:
   - RedCube
   - GreenCube
   - Walls
+  - FinishLine
   layers:
   - Default
   - TransparentFX
